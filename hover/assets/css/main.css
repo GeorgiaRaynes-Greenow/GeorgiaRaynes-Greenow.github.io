@@ -1,6 +1,63 @@
-.box {
-  hight: 100px;
-  width: 100px;
-  background-color: lightpink;
-  border: 3px solid magenta;
+.title {
+  font-family: avenir;
+}
+
+.blueheader {
+  color:blue;
+}
+
+.number {
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+}
+
+.number:hover {
+  background-color: red;
+  color: white;
+}
+
+.blueheader:hover {
+  background-color: pink;
+  color: white;
+}
+
+
+
+.footnote {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: avenir;
+  display: none;
+}
+
+.footnote.showme {
+  display: block;
+}
+
+
+
+.highlight {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  transition: 2s;
+}
+
+.highlight.showme {
+  display: block;
+  background-color: blue;
+  color: white;
+}
+
+
+
+
+.thumbnail {
+  width: 400px;
+}
+
+.thumbnail.enlarge {
+  width: 800px;
 }
