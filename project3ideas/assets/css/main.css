@@ -21,7 +21,7 @@
 }
 
 .blueheader {
-  color: red;
+  color: blue;
   margin-left: 50px;
 }
 
@@ -72,7 +72,7 @@
 
 .highlight.showme {
   display: block;
-  background-color: blue;
+  background-color: magenta;
   color: white;
 }
 
