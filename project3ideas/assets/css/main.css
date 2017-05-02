@@ -83,3 +83,13 @@
 .thumbnail.enlarge {
   width: 800px;
 }
+
+
+.indexhomepage {
+  margin-right: 40px;
+  margin-top: 40px;
+  text-align: right;
+  font-size: 15px;
+  font-family: avenir;
+  color: magenta;
+}
