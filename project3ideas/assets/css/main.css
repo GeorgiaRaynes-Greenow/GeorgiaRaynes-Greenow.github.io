@@ -1,13 +1,20 @@
+
+
+body{
+  background-color:;
+}
+
 .title {
   font-family: avenir;
   margin-left: 50px;
+  color: navy;
 }
 
 .paragraph {
   font-family: avenir;
   font-size: 18px;
   color: navy;
-  width: 700px;
+  width: 950px;
   margin-left: 50px;
 
 }
@@ -21,12 +28,12 @@
 }
 
 .blueheader {
-  color: blue;
+  color: navy;
   margin-left: 50px;
 }
 
 .blueheader2 {
-  color: blue;
+  color: navy;
   margin-left: 50px;
 }
 
@@ -38,11 +45,11 @@
 
 .number:hover {
   background-color: red;
-  color: white;
+  color: peachpuff;
 }
 
 .blueheader:hover {
-  background-color: pink;
+  background-color: peachpuff;
   color: white;
 }
 
@@ -58,7 +65,6 @@
   display: block;
 }
 
-
 .highlight {
   top: 50px;
   left: 10px;
@@ -72,8 +78,8 @@
 
 .highlight.showme {
   display: block;
-  background-color: magenta;
-  color: white;
+  background-color: white;
+  color: pink;
 }
 
 .thumbnail {
@@ -84,7 +90,6 @@
   width: 800px;
 }
 
-
 .indexhomepage {
   margin-right: 40px;
   margin-top: 40px;
@@ -92,4 +97,38 @@
   font-size: 15px;
   font-family: avenir;
   color: magenta;
+}
+
+
+.disfluency {
+  width: 720px;
+  margin-left: 120px;
+  font-family: arial;
+  color: cornflowerblue;
+}
+
+.ark {
+  width: 720px;
+  margin-left: 120px;
+  font-family: times;
+  color: orange;
+}
+
+.caption1 {
+  margin-left: 140px;
+}
+
+.caption2 {
+  margin-left: 140px;
+}
+
+.screenvspaper {
+  width: 720px;
+  margin-left: 120px;
+  font-family: times;
+  color: deeppink;
+}
+
+.mosesark {
+  margin-left: 200px;
 }
