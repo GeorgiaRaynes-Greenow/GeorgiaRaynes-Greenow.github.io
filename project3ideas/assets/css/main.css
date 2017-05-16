@@ -12,40 +12,25 @@ body{
 
 .paragraph {
   font-family: avenir;
-  font-size: 18px;
+  font-size: 10px;
   color: navy;
-  width: 950px;
+  width: 600px;
   margin-left: 50px;
 
 }
 
 .link{
   font-family: avenir;
-  font-size: 18px;
+  font-size: 10px;
   color: navy;
-  width: 700px;
+  width: 500px;
   margin-left: 50px;
 }
 
 .blueheader {
   color: navy;
   margin-left: 50px;
-}
-
-.blueheader2 {
-  color: navy;
-  margin-left: 50px;
-}
-
-.number {
-  border: 1px solid red;
-  color: red;
-  padding: 5px;
-}
-
-.number:hover {
-  background-color: red;
-  color: peachpuff;
+  font-size: 26px;
 }
 
 .blueheader:hover {
@@ -53,41 +38,19 @@ body{
   color: white;
 }
 
-.footnote {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  font-family: avenir;
-  display: none;
-}
-
-.footnote.showme {
-  display: block;
-}
 
 .highlight {
   top: 50px;
   left: 10px;
   transition: 2s;
+  font-size: 22px;
 }
 
-.highlight2 {
-  left: 10px;
-  transition: 2s;
-}
 
 .highlight.showme {
   display: block;
   background-color: white;
   color: pink;
-}
-
-.thumbnail {
-  width: 400px;
-}
-
-.thumbnail.enlarge {
-  width: 800px;
 }
 
 .indexhomepage {
@@ -99,19 +62,48 @@ body{
   color: magenta;
 }
 
+.hoverlink3 {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hoverlink3:hover {
+  background-color: red;
+  color: white;
+}
+
 
 .disfluency {
-  width: 720px;
-  margin-left: 120px;
+  width: 500px;
+  margin-left: 80px;
   font-family: arial;
+  font-size: 10px;
   color: cornflowerblue;
+  height: 0px;
+  overflow: hidden;
+  transition: all 2s;
+}
+
+.disfluency.showme {
+  height: 2750px;
+  transition: all 2s;
 }
 
 .ark {
-  width: 720px;
+  width: 520px;
   margin-left: 120px;
   font-family: times;
+  font-size: 10px;
   color: orange;
+  height: 0px;
+  overflow: hidden;
+  transition: all 2s;
+}
+
+.ark.showme {
+  height: 1800px;
+  transition: all 2s;
 }
 
 .caption1 {
@@ -123,12 +115,30 @@ body{
 }
 
 .screenvspaper {
-  width: 720px;
+  width: 520px;
   margin-left: 120px;
   font-family: times;
+  font-size: 10px;
   color: deeppink;
+  height: 0px;
+  overflow: hidden;
+  transition: all 2s;
+}
+
+.screenvspaper.showme {
+  height: 3500px;
+  transition: all 2s;
+
 }
 
 .mosesark {
   margin-left: 200px;
+}
+
+.nav {
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  text-decoration: none;
+  font-family: avenir;
 }

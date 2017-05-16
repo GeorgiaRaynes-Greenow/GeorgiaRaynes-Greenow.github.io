@@ -1,28 +1,31 @@
 $(document).ready(function() {
 
-  $('.number').mouseenter(function() {
-    $('.footnote').addClass('showme');
-  });
 
-  $('.number').mouseleave(function() {
-    $('.footnote').removeClass('showme');
-  });
 
-  $('.blueheader').mouseenter(function() {
-    $('.highlight').addClass('showme');
-  });
 
-  $('.blueheader').mouseleave(function() {
-    $('.highlight').removeClass('showme');
-  });
+    $('.hoverlink').click(function() {
+        $('.ark').toggleClass('showme');
+    });
 
-  $('.thumbnail').mouseenter(function() {
-    $('.thumbnail').addClass('enlarge');
-  });
 
-  $('.thumbnail').click(function() {
-   $(this).toggleClass('enlarge');
-  });
+
+
+
+    $('.hoverlink1').click(function() {
+        $('.screenvspaper').toggleClass('showme');
+    });
+
+
+
+
+    $('.hoverlink3').click(function() {
+        $('.disfluency').toggleClass('showme');
+    });
+
+
+
+
+
 
 
 });
