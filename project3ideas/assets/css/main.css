@@ -12,16 +12,16 @@ body{
 
 .paragraph {
   font-family: avenir;
-  font-size: 10px;
+  font-size: 14px;
   color: navy;
-  width: 600px;
+  width: 850px;
   margin-left: 50px;
 
 }
 
 .link{
   font-family: avenir;
-  font-size: 10px;
+  font-size: 14px;
   color: navy;
   width: 500px;
   margin-left: 50px;
@@ -38,21 +38,6 @@ body{
   color: white;
 }
 
-
-.highlight {
-  top: 50px;
-  left: 10px;
-  transition: 2s;
-  font-size: 22px;
-}
-
-
-.highlight.showme {
-  display: block;
-  background-color: white;
-  color: pink;
-}
-
 .indexhomepage {
   margin-right: 40px;
   margin-top: 40px;
@@ -63,8 +48,8 @@ body{
 }
 
 .hoverlink3 {
-  color: red;
-  font-size: 14px;
+  color: blue;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -73,12 +58,98 @@ body{
   color: white;
 }
 
+.hoverlink1 {
+  color: magenta;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hoverlink1:hover {
+  background-color: red;
+  color: white;
+}
+
+.hoverlink {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hoverlink:hover {
+  background-color: red;
+  color: white;
+}
+
+.rollover {
+  color: red;
+}
+
+.rollover:hover {
+  color: white;
+  background-color: red;
+}
+
+.blur {
+  position: fixed;
+  opacity: 0;
+  filter: blur(20px);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+
+.blur.showme {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 2s;
+}
+
+.rotate {
+  position: fixed;
+  visibility; hidden;
+  transform: scale(0) rotate(0deg);
+  pointer-events: none;
+  transition: all 2s;
+}
+
+
+.rotate.showme {
+  visibility: visible;
+  transform: scale(1) rotate(360deg);
+  transition: all 2s;
+}
+
+.ios67__image {
+  bottom: 120px;
+  right: 50px;
+}
+
+.cover__image {
+  bottom: 100px;
+  right: 150px;
+}
+
+.inside__image {
+  bottom: 10px;
+  right: 50px;
+}
+
+.mosesark__image {
+  bottom: 100px;
+  right: 50px;
+}
+
+.graph__image {
+  bottom: 100px;
+  right: 50px;
+}
+
 
 .disfluency {
-  width: 500px;
-  margin-left: 80px;
+  width: 650px;
+  margin-left: 100px;
   font-family: arial;
-  font-size: 10px;
+  font-size: 14px;
   color: cornflowerblue;
   height: 0px;
   overflow: hidden;
@@ -91,14 +162,16 @@ body{
 }
 
 .ark {
-  width: 520px;
-  margin-left: 120px;
+  width: 650px;
+  margin-left: 100px;
   font-family: times;
-  font-size: 10px;
-  color: orange;
+  font-size: 14px;
+  color: white;
   height: 0px;
   overflow: hidden;
   transition: all 2s;
+  background-color: pink;
+  padding: 20px;
 }
 
 .ark.showme {
@@ -107,7 +180,7 @@ body{
 }
 
 .caption1 {
-  margin-left: 140px;
+  margin-left: 100px;
 }
 
 .caption2 {
@@ -115,10 +188,10 @@ body{
 }
 
 .screenvspaper {
-  width: 520px;
-  margin-left: 120px;
+  width: 650px;
+  margin-left: 100px;
   font-family: times;
-  font-size: 10px;
+  font-size: 14px;
   color: deeppink;
   height: 0px;
   overflow: hidden;
@@ -137,8 +210,13 @@ body{
 
 .nav {
   position: fixed;
-  top: 10px;
-  left: 50px;
+  top: 30px;
+  left: 60px;
   text-decoration: none;
   font-family: avenir;
+  font-size: 20px;
+  color: white;
+  background-color: peachpuff;
+  padding-left: 5px;
+  padding-right: 5px;
 }
