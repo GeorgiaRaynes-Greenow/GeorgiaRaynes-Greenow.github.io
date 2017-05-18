@@ -11,13 +11,16 @@ body{
 }
 
 .paragraph {
-  font-family: avenir;
+  font-family: andalemono;
+  line-height: 180%;
   font-size: 14px;
   color: navy;
   width: 850px;
   margin-left: 50px;
-
 }
+
+
+
 
 .link{
   font-family: avenir;
@@ -26,6 +29,10 @@ body{
   width: 500px;
   margin-left: 50px;
 }
+
+
+
+
 
 .blueheader {
   color: navy;
@@ -38,6 +45,10 @@ body{
   color: white;
 }
 
+
+
+
+
 .indexhomepage {
   margin-right: 40px;
   margin-top: 40px;
@@ -47,10 +58,15 @@ body{
   color: magenta;
 }
 
+
+
+
+
+
+
 .hoverlink3 {
-  color: blue;
-  font-size: 16px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .hoverlink3:hover {
@@ -59,9 +75,8 @@ body{
 }
 
 .hoverlink1 {
-  color: magenta;
-  font-size: 16px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .hoverlink1:hover {
@@ -70,9 +85,8 @@ body{
 }
 
 .hoverlink {
-  color: white;
-  font-size: 16px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .hoverlink:hover {
@@ -80,14 +94,24 @@ body{
   color: white;
 }
 
+
+
+
+
 .rollover {
-  color: red;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .rollover:hover {
   color: white;
   background-color: red;
 }
+
+
+
+
+
 
 .blur {
   position: fixed;
@@ -119,9 +143,14 @@ body{
   transition: all 2s;
 }
 
+
+
+
+
+
 .ios67__image {
-  bottom: 120px;
-  right: 50px;
+  bottom: 200px;
+  right: 70px;
 }
 
 .cover__image {
@@ -135,21 +164,55 @@ body{
 }
 
 .mosesark__image {
-  bottom: 100px;
-  right: 50px;
+  bottom: 200px;
+  right: 200px;
 }
 
-.graph__image {
-  bottom: 100px;
-  right: 50px;
+.graphs__image {
+  bottom: 200px;
+  right: 40px;
 }
+
+.disfluenc__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+.apple1985__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+.apple2017__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+.noah__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+.moses__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+.noahsark__image {
+  bottom: 200px;
+  right: 200px;
+}
+
+
+
 
 
 .disfluency {
   width: 650px;
   margin-left: 100px;
-  font-family: arial;
-  font-size: 14px;
+  font-family: comicsansms;
+  line-height: 220%;
+  font-size: 15px;
   color: cornflowerblue;
   height: 0px;
   overflow: hidden;
@@ -157,15 +220,16 @@ body{
 }
 
 .disfluency.showme {
-  height: 2750px;
+  height: 2850px;
   transition: all 2s;
 }
 
 .ark {
   width: 650px;
   margin-left: 100px;
-  font-family: times;
-  font-size: 14px;
+  font-family: courier;
+  font-size: 15px;
+  line-height: 170%;
   color: white;
   height: 0px;
   overflow: hidden;
@@ -175,23 +239,37 @@ body{
 }
 
 .ark.showme {
-  height: 1800px;
+  height: 1600px;
   transition: all 2s;
 }
 
-.caption1 {
-  margin-left: 100px;
+
+
+
+
+.disheading {
+  color: yellowgreen;
 }
 
-.caption2 {
-  margin-left: 140px;
+.arkheading {
+  line-height: 250%;
+  color: yellow;
 }
+
+.screenheading {
+  line-height: 250%;
+  color: blue;
+}
+
+
+
 
 .screenvspaper {
   width: 650px;
   margin-left: 100px;
-  font-family: times;
-  font-size: 14px;
+  font-family: skia;
+  line-height: 200%;
+  font-size: 15px;
   color: deeppink;
   height: 0px;
   overflow: hidden;
@@ -199,21 +277,22 @@ body{
 }
 
 .screenvspaper.showme {
-  height: 3500px;
+  height: 3530px;
   transition: all 2s;
-
 }
 
-.mosesark {
-  margin-left: 200px;
-}
+
+
+
+
 
 .nav {
   position: fixed;
   top: 30px;
   left: 60px;
   text-decoration: none;
-  font-family: avenir;
+  font-family: impact;
+  letter-spacing: 4px;
   font-size: 20px;
   color: white;
   background-color: peachpuff;
