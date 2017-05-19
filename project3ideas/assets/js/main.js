@@ -112,6 +112,16 @@ $(document).ready(function() {
 
 
 
+    $('.ababyandanipad').mouseenter(function() {
+      $('.babyscreen__image').addClass('showme');
+    });
+
+    $('.ababyandanipad').mouseleave(function() {
+      $('.babyscreen__image').removeClass('showme');
+    });
+
+
+
 
 
 

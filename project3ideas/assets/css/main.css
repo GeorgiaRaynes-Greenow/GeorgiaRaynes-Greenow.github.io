@@ -148,6 +148,9 @@ body{
 
 
 
+
+
+
 .ios67__image {
   bottom: 200px;
   right: 70px;
@@ -203,6 +206,11 @@ body{
   right: 200px;
 }
 
+.babyscreen__image {
+  bottom: 200px;
+  right: 200px;
+}
+
 
 
 
@@ -248,7 +256,7 @@ body{
 
 
 .disheading {
-  color: yellowgreen;
+  color: magenta;
 }
 
 .arkheading {
@@ -258,7 +266,7 @@ body{
 
 .screenheading {
   line-height: 250%;
-  color: blue;
+  color: purple;
 }
 
 
