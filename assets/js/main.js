@@ -48,11 +48,11 @@ $(document).ready(function() {
 
 
     $('.theark').mouseenter(function() {
-      $('.noahsark').addClass('showme');
+      $('.noahsark__image').addClass('showme');
     });
 
     $('.theark').mouseleave(function() {
-      $('.noahsark').removeClass('showme');
+      $('.noahsark__image').removeClass('showme');
     });
 
 
@@ -110,15 +110,6 @@ $(document).ready(function() {
       $('.graphs__image').removeClass('showme');
     });
 
-
-
-    $('.ababyandanipad').mouseenter(function() {
-      $('.babyscreen__image').addClass('showme');
-    });
-
-    $('.ababyandanipad').mouseleave(function() {
-      $('.babyscreen__image').removeClass('showme');
-    });
 
 
 

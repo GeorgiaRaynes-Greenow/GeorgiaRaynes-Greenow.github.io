@@ -5,7 +5,7 @@ body{
 }
 
 .title {
-  font-family: Apple Chancery;
+  font-family: avenir;
   margin-left: 50px;
   color: navy;
 }
@@ -35,15 +35,27 @@ body{
 
 
 .blueheader {
-  color: #b30059;
+  color: navy;
   margin-left: 50px;
-  font-size: 40px;
-  width: 850px;
+  font-size: 26px;
 }
 
 .blueheader:hover {
   background-color: peachpuff;
   color: white;
+}
+
+
+
+
+
+.indexhomepage {
+  margin-right: 40px;
+  margin-top: 40px;
+  text-align: right;
+  font-size: 15px;
+  font-family: avenir;
+  color: magenta;
 }
 
 
@@ -100,6 +112,7 @@ body{
 
 
 
+
 .blur {
   position: fixed;
   opacity: 0;
@@ -128,20 +141,6 @@ body{
   visibility: visible;
   transform: scale(1) rotate(360deg);
   transition: all 2s;
-}
-
-.hover {
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s;
-}
-
-
-.hover.showme {
-  visibility: visible;
-  opacity: 1;
-  transition: all 1s;
 }
 
 
@@ -203,11 +202,14 @@ body{
 }
 
 .noahsark__image {
-  bottom: 240px;
-  right: 120px;
+  bottom: 200px;
+  right: 200px;
 }
 
-
+.babyscreen__image {
+  bottom: 200px;
+  right: 200px;
+}
 
 
 
@@ -219,36 +221,33 @@ body{
   font-family: comicsansms;
   line-height: 220%;
   font-size: 15px;
-  color: #ffcc80;
+  color: olivedrab;
   height: 0px;
   overflow: hidden;
   transition: all 2s;
 }
 
 .disfluency.showme {
-  height: 3450px;
+  height: 2850px;
   transition: all 2s;
 }
 
 .ark {
-  height: 0px;
-  overflow: hidden;
-  transition: all 2s;
-}
-
-.arkcontent {
   width: 650px;
   margin-left: 100px;
   font-family: courier;
   font-size: 15px;
   line-height: 170%;
   color: white;
+  height: 0px;
+  overflow: hidden;
+  transition: all 2s;
   background-color: pink;
   padding: 20px;
 }
 
 .ark.showme {
-  height: 1780px;
+  height: 1600px;
   transition: all 2s;
 }
 
@@ -262,15 +261,13 @@ body{
 }
 
 .arkheading {
-  line-height: 450%;
+  line-height: 250%;
   color: yellow;
-  font-family: Zapfino;
 }
 
 .screenheading {
-  line-height: 300%;
+  line-height: 250%;
   color: purple;
-  font-family: papyrus;
 }
 
 
@@ -294,9 +291,6 @@ body{
 }
 
 
-.babylink{
-  colour: blue;
-}
 
 
 
