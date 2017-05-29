@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
 
     $('.ios67').mouseenter(function() {
       $('.ios67__image').addClass('showme');

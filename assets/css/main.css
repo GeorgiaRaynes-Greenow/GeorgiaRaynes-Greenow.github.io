@@ -42,8 +42,7 @@ body{
 }
 
 .blueheader:hover {
-  background-color: peachpuff;
-  color: white;
+color: purple;
 }
 
 
@@ -219,14 +218,14 @@ body{
   font-family: comicsansms;
   line-height: 220%;
   font-size: 15px;
-  color: #ffcc80;
+  color: darkorchid;
   height: 0px;
   overflow: hidden;
   transition: all 2s;
 }
 
 .disfluency.showme {
-  height: 3450px;
+  height: 3500px;
   transition: all 2s;
 }
 
@@ -257,8 +256,10 @@ body{
 
 
 .disheading {
-  color: magenta;
+  color: tomato;
   font-family: impact;
+  font-size: 22px;
+  line-height: 250%;
 }
 
 .arkheading {
@@ -282,7 +283,7 @@ body{
   font-family: skia;
   line-height: 200%;
   font-size: 15px;
-  color: deeppink;
+  color: blue;
   height: 0px;
   overflow: hidden;
   transition: all 2s;
