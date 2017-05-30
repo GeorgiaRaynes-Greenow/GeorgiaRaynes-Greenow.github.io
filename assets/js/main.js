@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
 
     $('.ios67').mouseenter(function() {
       $('.ios67__image').addClass('showme');
@@ -10,17 +10,13 @@ $(document).ready(function() {
     });
 
 
-
-    $('.announcement').mouseenter(function() {
+    $('.disfluenc').mouseenter(function() {
       $('.disfluenc__image').addClass('showme');
     });
 
-    $('.announcement').mouseleave(function() {
+    $('.disfluenc').mouseleave(function() {
       $('.disfluenc__image').removeClass('showme');
     });
-
-
-
 
 
 
@@ -142,6 +138,9 @@ $(document).ready(function() {
 
 
     $('.hoverlink').click(function() {
+      $('html, body').animate({
+    scrollTop: $(".ark").offset().top-100
+}, 500);
         $('.ark').toggleClass('showme');
     });
 
@@ -150,6 +149,9 @@ $(document).ready(function() {
 
 
     $('.hoverlink1').click(function() {
+      $('html, body').animate({
+    scrollTop: $(".screenvspaper").offset().top-100
+}, 500);
         $('.screenvspaper').toggleClass('showme');
     });
 
@@ -157,6 +159,9 @@ $(document).ready(function() {
 
 
     $('.hoverlink3').click(function() {
+      $('html, body').animate({
+    scrollTop: $(".disfluency").offset().top-100
+}, 500);
         $('.disfluency').toggleClass('showme');
     });
 

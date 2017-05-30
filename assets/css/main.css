@@ -156,6 +156,11 @@ color: purple;
   right: 70px;
 }
 
+.disfluenc__image {
+  bottom: 200px;
+  right: 70px;
+}
+
 .cover__image {
   bottom: 100px;
   right: 150px;
@@ -174,11 +179,6 @@ color: purple;
 .graphs__image {
   bottom: 200px;
   right: 40px;
-}
-
-.disfluenc__image {
-  bottom: 200px;
-  right: 200px;
 }
 
 .apple1985__image {
@@ -269,9 +269,10 @@ color: purple;
 }
 
 .screenheading {
-  line-height: 300%;
+  line-height: 200%;
   color: purple;
-  font-family: papyrus;
+  font-family: copperplate;
+  font-size: 18px;
 }
 
 
@@ -290,7 +291,7 @@ color: purple;
 }
 
 .screenvspaper.showme {
-  height: 3530px;
+  height: 3580px;
   transition: all 2s;
 }
 
@@ -312,6 +313,7 @@ color: purple;
   font-size: 20px;
   color: white;
   background-color: peachpuff;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
