@@ -1,4 +1,17 @@
 
+.homepage {
+  font-size: 150px;
+  font-family: ariel;
+  font-weight: bold;
+  text-shadow: 3px 2px red;
+  text-decoration: none;
+
+}
+
+a {
+  color: pink;
+}
+
 
 body{
   background-color:;
