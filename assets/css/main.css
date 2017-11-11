@@ -1,4 +1,17 @@
 
+.homepage {
+  font-size: 150px;
+  color: pink;
+  font-family: ;
+  font-weight: bold;
+  text-decoration: none;
+  text-outline: 2px pink;
+  text-shadow: 3px 2px red;
+  margin-top: 100px;
+  margin-left: auto;
+}
+
+
 .Back {
   font-size: 30px;
   font-family: courier new;
