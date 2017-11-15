@@ -12,15 +12,26 @@
 }
 
 
-.Back {
-  font-size: 30px;
+.nav {
+  position: ;
+  top: 30px;
+  left: 60px;
+  text-decoration: none;
   font-family: courier new;
+  letter-spacing: ;
+  font-size: 25px;
+  color: white;
+  background-color: peachpuff;
+  padding: 4px;
+  width: 100%;
   margin-left: 50px;
 }
 
 a {
-  color: lightgrey;
+  color: white;
   text-decoration: none;
+  float: right;
+  margin-right: 130px;
 }
 
 
@@ -233,9 +244,6 @@ color: purple;
 
 
 
-
-
-
 .disfluency {
   width: 650px;
   margin-left: 100px;
@@ -322,22 +330,4 @@ color: purple;
 
 .babylink{
   colour: blue;
-}
-
-
-
-
-.nav {
-  position: fixed;
-  top: 30px;
-  left: 60px;
-  text-decoration: none;
-  font-family: impact;
-  letter-spacing: 4px;
-  font-size: 20px;
-  color: white;
-  background-color: peachpuff;
-  padding: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
 }
